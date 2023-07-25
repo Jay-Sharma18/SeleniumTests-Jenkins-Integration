@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-23T17:14:34 EDT" name="Selenium-Jenkins_Tests" finished-at="2023-07-23T17:14:54 EDT" duration-ms="20218">
+    <groups>
+    </groups>
+    <test started-at="2023-07-23T17:14:34 EDT" name="Run_Tests_From_Jenkins" finished-at="2023-07-23T17:14:54 EDT" duration-ms="20218">
+      <class name="TestSuites.Staging_Environment.SwagLabsTestClass01">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestSuites.Staging_Environment.SwagLabsTestClass01@5bf0d49]" started-at="2023-07-23T17:14:34 EDT" name="setup" finished-at="2023-07-23T17:14:42 EDT" duration-ms="7839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initTestModule()[pri:0, instance:TestSuites.Staging_Environment.SwagLabsTestClass01@5bf0d49]" started-at="2023-07-23T17:14:42 EDT" name="initTestModule" finished-at="2023-07-23T17:14:42 EDT" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestModule -->
+        <test-method signature="A1_verifyHomePageText()[pri:0, instance:TestSuites.Staging_Environment.SwagLabsTestClass01@5bf0d49]" started-at="2023-07-23T17:14:42 EDT" name="A1_verifyHomePageText" finished-at="2023-07-23T17:14:42 EDT" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A1_verifyHomePageText -->
+        <test-method is-config="true" signature="initTestModule()[pri:0, instance:TestSuites.Staging_Environment.SwagLabsTestClass01@5bf0d49]" started-at="2023-07-23T17:14:42 EDT" name="initTestModule" finished-at="2023-07-23T17:14:42 EDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestModule -->
+        <test-method signature="A2_loginWithInvalidCredentials()[pri:0, instance:TestSuites.Staging_Environment.SwagLabsTestClass01@5bf0d49]" started-at="2023-07-23T17:14:42 EDT" name="A2_loginWithInvalidCredentials" finished-at="2023-07-23T17:14:48 EDT" duration-ms="5725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A2_loginWithInvalidCredentials -->
+        <test-method signature="A3_loginWithvalidCredentials()[pri:0, instance:TestSuites.Staging_Environment.SwagLabsTestClass01@5bf0d49]" started-at="2023-07-23T17:14:48 EDT" name="A3_loginWithvalidCredentials" finished-at="2023-07-23T17:14:53 EDT" duration-ms="5751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A3_loginWithvalidCredentials -->
+        <test-method is-config="true" signature="initTestModule()[pri:0, instance:TestSuites.Staging_Environment.SwagLabsTestClass01@5bf0d49]" started-at="2023-07-23T17:14:48 EDT" name="initTestModule" finished-at="2023-07-23T17:14:48 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestModule -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestSuites.Staging_Environment.SwagLabsTestClass01@5bf0d49]" started-at="2023-07-23T17:14:53 EDT" name="tearDown" finished-at="2023-07-23T17:14:54 EDT" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestSuites.Staging_Environment.SwagLabsTestClass01 -->
+    </test> <!-- Run_Tests_From_Jenkins -->
+  </suite> <!-- Selenium-Jenkins_Tests -->
+</testng-results>

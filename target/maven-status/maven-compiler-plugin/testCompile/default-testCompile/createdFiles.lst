@@ -1,0 +1,12 @@
+TestModules\QA_HerokuAppTestModule\QA_HerokuHomePageTest.class
+TestModules\Staging_SwagLabsTestModule\Staging_SwagLabsHomePageTest.class
+Utilities\ReadConfig.class
+ProjectBaseClasses\BaseSetup.class
+Pages\HerokuAppPages\AddRemoveElementsPage.class
+TestSuites\QA_Environment\HerokuAppTestClass01.class
+Pages\HerokuAppPages\HerokuHomePage.class
+TestModules\QA_HerokuAppTestModule\QA_HerokuAddRemoveElementsPageTest.class
+Pages\SwagLabsPages\HomePage.class
+TestSuites\Staging_Environment\SwagLabsTestClass01.class
+Pages\SwagLabsPages\ProductsPage.class
+Utilities\DriverFactory.class

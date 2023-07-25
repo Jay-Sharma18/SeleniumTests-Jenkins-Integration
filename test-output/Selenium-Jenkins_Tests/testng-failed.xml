@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium-Jenkins_Tests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Run_Tests_From_Jenkins_QA(failed)">
+    <classes>
+      <class name="TestSuites.QA_Environment.HerokuAppTestClass01">
+        <methods>
+          <include name="A4_verifyDeleteButtonNotPresent"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="A2_verifyAddRemoveElementsText"/>
+          <include name="initTestModule"/>
+          <include name="A3_verifyDeleteButtonPresent"/>
+          <include name="A1_verifyWelcomeText"/>
+        </methods>
+      </class> <!-- TestSuites.QA_Environment.HerokuAppTestClass01 -->
+    </classes>
+  </test> <!-- Run_Tests_From_Jenkins_QA(failed) -->
+</suite> <!-- Failed suite [Selenium-Jenkins_Tests] -->
