@@ -1,0 +1,10 @@
+2023-07-30 11:17:45,878 [main] INFO Selenium_Jenkins_Automation - Launching web browser
+2023-07-30 11:17:53,697 [main] INFO Selenium_Jenkins_Automation - Google Chrome is launched
+2023-07-30 11:17:53,697 [main] INFO Selenium_Jenkins_Automation - Staging Environment: Swag Labs
+2023-07-30 11:17:53,832 [main] INFO Selenium_Jenkins_Automation - Executing 1st test: Open home page and Verify home page text
+2023-07-30 11:17:53,972 [main] INFO Selenium_Jenkins_Automation - Passed-Home page text validation successful
+2023-07-30 11:17:54,002 [main] INFO Selenium_Jenkins_Automation - Executing 2nd test: Login with invalid credentials and Verify login fails
+2023-07-30 11:17:59,938 [main] INFO Selenium_Jenkins_Automation - Passed-Login was not successful
+2023-07-30 11:17:59,943 [main] INFO Selenium_Jenkins_Automation - Executing 3rd test: Login with valid credentials and Verify login user logs in successfully
+2023-07-30 11:18:05,693 [main] INFO Selenium_Jenkins_Automation - Passed-Logged in with valid credentials
+2023-07-30 11:18:05,702 [main] INFO Selenium_Jenkins_Automation - Closing Browser
