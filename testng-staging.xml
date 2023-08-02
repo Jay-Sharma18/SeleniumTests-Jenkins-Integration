@@ -3,9 +3,9 @@
   
 <suite name="Selenium-Jenkins_Tests" >
 
-<!--  <listeners>
-	  	<listener class-name="Utilities.ReporterListenerClass" /> 
-	</listeners>     -->
+<listeners>
+	  	<listener class-name="Utilities.ReportListeners" /> 
+	</listeners>
 	
   <test name="Run_Tests_From_Jenkins_Staging" > 
  
