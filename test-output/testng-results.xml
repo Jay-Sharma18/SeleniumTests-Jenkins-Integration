@@ -1,45 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-23T17:14:34 EDT" name="Selenium-Jenkins_Tests" finished-at="2023-07-23T17:14:54 EDT" duration-ms="20218">
+  <suite started-at="2023-07-25T17:47:02 EDT" name="Selenium-Jenkins_Tests" finished-at="2023-07-25T17:47:22 EDT" duration-ms="20699">
     <groups>
     </groups>
-    <test started-at="2023-07-23T17:14:34 EDT" name="Run_Tests_From_Jenkins" finished-at="2023-07-23T17:14:54 EDT" duration-ms="20218">
-      <class name="TestSuites.Staging_Environment.SwagLabsTestClass01">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestSuites.Staging_Environment.SwagLabsTestClass01@5bf0d49]" started-at="2023-07-23T17:14:34 EDT" name="setup" finished-at="2023-07-23T17:14:42 EDT" duration-ms="7839" status="PASS">
+    <test started-at="2023-07-25T17:47:02 EDT" name="Run_Tests_From_Jenkins_QA" finished-at="2023-07-25T17:47:22 EDT" duration-ms="20699">
+      <class name="TestSuites.QA_Environment.HerokuAppTestClass01">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestSuites.QA_Environment.HerokuAppTestClass01@74e52ef6]" started-at="2023-07-25T17:47:02 EDT" name="setup" finished-at="2023-07-25T17:47:11 EDT" duration-ms="9073" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initTestModule()[pri:0, instance:TestSuites.Staging_Environment.SwagLabsTestClass01@5bf0d49]" started-at="2023-07-23T17:14:42 EDT" name="initTestModule" finished-at="2023-07-23T17:14:42 EDT" duration-ms="60" status="PASS">
+        <test-method is-config="true" signature="initTestModule()[pri:0, instance:TestSuites.QA_Environment.HerokuAppTestClass01@74e52ef6]" started-at="2023-07-25T17:47:11 EDT" name="initTestModule" finished-at="2023-07-25T17:47:11 EDT" duration-ms="93" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTestModule -->
-        <test-method signature="A1_verifyHomePageText()[pri:0, instance:TestSuites.Staging_Environment.SwagLabsTestClass01@5bf0d49]" started-at="2023-07-23T17:14:42 EDT" name="A1_verifyHomePageText" finished-at="2023-07-23T17:14:42 EDT" duration-ms="154" status="PASS">
+        <test-method signature="A1_verifyWelcomeText()[pri:0, instance:TestSuites.QA_Environment.HerokuAppTestClass01@74e52ef6]" started-at="2023-07-25T17:47:11 EDT" name="A1_verifyWelcomeText" finished-at="2023-07-25T17:47:11 EDT" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- A1_verifyHomePageText -->
-        <test-method is-config="true" signature="initTestModule()[pri:0, instance:TestSuites.Staging_Environment.SwagLabsTestClass01@5bf0d49]" started-at="2023-07-23T17:14:42 EDT" name="initTestModule" finished-at="2023-07-23T17:14:42 EDT" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initTestModule -->
-        <test-method signature="A2_loginWithInvalidCredentials()[pri:0, instance:TestSuites.Staging_Environment.SwagLabsTestClass01@5bf0d49]" started-at="2023-07-23T17:14:42 EDT" name="A2_loginWithInvalidCredentials" finished-at="2023-07-23T17:14:48 EDT" duration-ms="5725" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- A2_loginWithInvalidCredentials -->
-        <test-method signature="A3_loginWithvalidCredentials()[pri:0, instance:TestSuites.Staging_Environment.SwagLabsTestClass01@5bf0d49]" started-at="2023-07-23T17:14:48 EDT" name="A3_loginWithvalidCredentials" finished-at="2023-07-23T17:14:53 EDT" duration-ms="5751" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- A3_loginWithvalidCredentials -->
-        <test-method is-config="true" signature="initTestModule()[pri:0, instance:TestSuites.Staging_Environment.SwagLabsTestClass01@5bf0d49]" started-at="2023-07-23T17:14:48 EDT" name="initTestModule" finished-at="2023-07-23T17:14:48 EDT" duration-ms="0" status="PASS">
+        </test-method> <!-- A1_verifyWelcomeText -->
+        <test-method is-config="true" signature="initTestModule()[pri:0, instance:TestSuites.QA_Environment.HerokuAppTestClass01@74e52ef6]" started-at="2023-07-25T17:47:11 EDT" name="initTestModule" finished-at="2023-07-25T17:47:11 EDT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTestModule -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestSuites.Staging_Environment.SwagLabsTestClass01@5bf0d49]" started-at="2023-07-23T17:14:53 EDT" name="tearDown" finished-at="2023-07-23T17:14:54 EDT" duration-ms="591" status="PASS">
+        <test-method signature="A2_verifyAddRemoveElementsText()[pri:0, instance:TestSuites.QA_Environment.HerokuAppTestClass01@74e52ef6]" started-at="2023-07-25T17:47:11 EDT" name="A2_verifyAddRemoveElementsText" finished-at="2023-07-25T17:47:11 EDT" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A2_verifyAddRemoveElementsText -->
+        <test-method is-config="true" signature="initTestModule()[pri:0, instance:TestSuites.QA_Environment.HerokuAppTestClass01@74e52ef6]" started-at="2023-07-25T17:47:11 EDT" name="initTestModule" finished-at="2023-07-25T17:47:11 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestModule -->
+        <test-method signature="A3_verifyDeleteButtonPresent()[pri:0, instance:TestSuites.QA_Environment.HerokuAppTestClass01@74e52ef6]" started-at="2023-07-25T17:47:11 EDT" name="A3_verifyDeleteButtonPresent" finished-at="2023-07-25T17:47:12 EDT" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A3_verifyDeleteButtonPresent -->
+        <test-method is-config="true" signature="initTestModule()[pri:0, instance:TestSuites.QA_Environment.HerokuAppTestClass01@74e52ef6]" started-at="2023-07-25T17:47:12 EDT" name="initTestModule" finished-at="2023-07-25T17:47:12 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestModule -->
+        <test-method signature="A4_verifyDeleteButtonNotPresent()[pri:0, instance:TestSuites.QA_Environment.HerokuAppTestClass01@74e52ef6]" started-at="2023-07-25T17:47:12 EDT" name="A4_verifyDeleteButtonNotPresent" finished-at="2023-07-25T17:47:22 EDT" duration-ms="10160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A4_verifyDeleteButtonNotPresent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestSuites.QA_Environment.HerokuAppTestClass01@74e52ef6]" started-at="2023-07-25T17:47:22 EDT" name="tearDown" finished-at="2023-07-25T17:47:22 EDT" duration-ms="465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestSuites.Staging_Environment.SwagLabsTestClass01 -->
-    </test> <!-- Run_Tests_From_Jenkins -->
+      </class> <!-- TestSuites.QA_Environment.HerokuAppTestClass01 -->
+    </test> <!-- Run_Tests_From_Jenkins_QA -->
   </suite> <!-- Selenium-Jenkins_Tests -->
 </testng-results>
